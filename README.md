@@ -75,43 +75,6 @@ This project leverages machine learning to predict the winner of the T20 World C
    streamlit run main.py
    ```
 
-### Manual Setup (Alternative)
-
-If you prefer to set up manually, follow these steps:
-
-1. Create the following directory structure:
-   ```
-   t20-predictor/
-   ├── assets/
-   ├── attached_assets/
-   ├── models/
-   ├── pages/
-   └── .streamlit/
-   ```
-
-2. Copy `.env.template` to `.env` and configure your API keys
-
-3. Follow steps 3-6 from the Quick Setup section above
-
-## 📜 Requirements
-The following dependencies are listed in `requirements.txt`:
-```txt
-anthropic>=0.45.2
-numpy>=2.2.2
-openai>=1.61.1
-openpyxl>=3.1.5
-pandas>=2.2.3
-plotly-express>=0.4.1
-plotly>=6.0.0
-psycopg2-binary>=2.9.10
-requests>=2.32.3
-scikit-learn>=1.6.1
-streamlit>=1.42.0
-trafilatura>=2.0.0
-twilio>=9.4.4
-xgboost>=2.1.4
-python-dotenv>=1.0.1
-```
 
 ## 🏆 Future Enhancements
 - Integration with live match data sources.
