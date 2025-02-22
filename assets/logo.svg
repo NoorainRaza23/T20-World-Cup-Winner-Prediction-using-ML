@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#6b46c1" opacity="0.1"/>
+  <circle cx="100" cy="100" r="85" fill="#6b46c1" opacity="0.2"/>
+  
+  <!-- Cricket Ball Design -->
+  <circle cx="100" cy="100" r="70" fill="#6b46c1"/>
+  <path d="M50,100 Q100,140 150,100" stroke="white" stroke-width="4" fill="none"/>
+  <path d="M50,100 Q100,60 150,100" stroke="white" stroke-width="4" fill="none"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#2d3748" font-size="24">
+    T20 Predictor
+  </text>
+</svg>

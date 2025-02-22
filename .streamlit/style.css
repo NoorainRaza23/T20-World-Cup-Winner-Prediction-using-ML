@@ -1,0 +1,179 @@
+/* Global Styles */
+:root {
+    --primary-color: #6b46c1;
+    --secondary-color: #805ad5;
+    --background-color: #ffffff;
+    --text-color: #2d3748;
+    --border-color: #e2e8f0;
+    --success-color: #48bb78;
+    --warning-color: #ed8936;
+    --error-color: #f56565;
+}
+
+/* Responsive breakpoints */
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 1rem !important;
+    }
+
+    .stats-card {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .metric-container {
+        padding: 0.75rem !important;
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+    }
+
+    h2 {
+        font-size: 1.25rem !important;
+    }
+
+    .stButton > button {
+        width: 100% !important;
+        padding: 0.5rem !important;
+    }
+}
+
+/* Main container styles */
+.main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.stApp header {
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+/* Navigation styles */
+.stSelectbox {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+/* Card styles with improved mobile layout */
+.stats-card {
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Metric container with responsive design */
+.metric-container {
+    background-color: #f8fafc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Plot styles with responsive container */
+.js-plotly-plot {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Table styles with horizontal scroll on mobile */
+.stDataFrame {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Text styles with responsive sizing */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+p {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Mobile-specific sidebar adjustments */
+@media screen and (max-width: 768px) {
+    .streamlit-expanderHeader {
+        font-size: 0.9rem !important;
+    }
+
+    .sidebar .stRadio > div {
+        flex-direction: column !important;
+    }
+
+    .sidebar .stRadio label {
+        padding: 0.5rem !important;
+        width: 100% !important;
+    }
+}
+
+/* Touch-friendly form elements */
+input, select, textarea {
+    min-height: 44px !important;
+    font-size: 16px !important; /* Prevents zoom on iOS */
+}
+
+/* Improved spacing for mobile */
+.row-widget {
+    margin-bottom: 1rem !important;
+}
+
+/* Responsive grid system */
+.stColumns {
+    gap: 1rem !important;
+}
+
+@media screen and (max-width: 640px) {
+    .stColumns > div {
+        flex: 0 1 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* Hide Streamlit's default menu and footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.stDeployButton {display: none;}
+
+/* Metric styles */
+div[data-testid="stMetricValue"] {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: var(--text-color) !important;
+}
+
+div[data-testid="stMetricDelta"] {
+    font-size: 0.875rem !important;
+    color: var(--text-color) !important;
+    opacity: 0.8;
+}
+
+div[data-testid="stMetricLabel"] {
+    font-size: 0.875rem !important;
+    color: #718096 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
