@@ -135,5 +135,5 @@ This project is licensed under the MIT License.
 
 ---
 ### 🔗 Connect with Me
-- **GitHub:** [yourusername](https://github.com/yourusername)
-- **LinkedIn:** [yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [NoorainRaza23](https://github.com/NoorainRaza23)
+- **LinkedIn:** [Noorain Raza](https://www.linkedin.com/in/noorainraza/)
